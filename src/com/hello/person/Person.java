@@ -1,0 +1,40 @@
+package com.hello.person;
+
+public class Person {
+
+    private int id;
+    private String name;
+
+    public Person() {
+        System.out.println("Firstly");
+    }
+
+    public Person(int Id, String Name) {
+        this.id = Id;
+        this.name = Name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
+}
