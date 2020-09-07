@@ -10,9 +10,13 @@ public class consumer {
         }
         int[] b = a;
         b[1] = 4;
+
+
         for(int i=0;i<b.length;i++){
             System.out.println(b[i]);
         }
+
+
         for(int i=0;i<a.length;i++){
             System.out.println(a[i]);
         }
